@@ -161,17 +161,17 @@ export default function TopBar() {
           </Menu.Item>
           
           {connected && (!searchFocussed || location.pathname === '/balances') && (
-            <Menu.Item key="/balances" style={{ margin: '0 10px' }}>
+            <Menu.Item disabled={true} key="/balances" style={{ margin: '0 10px' }}>
               BALANCES
             </Menu.Item>
           )}
           {connected && (!searchFocussed || location.pathname === '/orders') && (
-            <Menu.Item key="/orders" style={{ margin: '0 10px' }}>
+            <Menu.Item disabled={true}  key="/orders" style={{ margin: '0 10px' }}>
               ORDERS
             </Menu.Item>
           )}
           {connected && (!searchFocussed || location.pathname === '/catofolio') && (
-            <Menu.Item key="/catofolio" style={{ margin: '0 10px' }}>
+            <Menu.Item disabled={true}  key="/catofolio" style={{ margin: '0 10px' }}>
               CATOFOLIO
             </Menu.Item>
           )}

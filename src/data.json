@@ -443,6 +443,36 @@
         "type":"",
         "supply":"",
         "website":"https://cropper.finance/"
+    },
+    {
+        "name":"ATLAS/USDC",
+        "type":"Gaming Metaverse",
+        "supply":"36,000,000,000",
+        "website":"https://staratlas.com"
+    },
+    {
+        "name":"POLIS/USDC",
+        "type":"StarAtlas DAO",
+        "supply":"360,000,000",
+        "website":"https://staratlas.com"
+    },
+    {
+        "name":"SUNNY/USDC",
+        "type":"",
+        "supply":"",
+        "website":"https://sunny.ag"
+    },
+    {
+        "name":"PORT/USDC",
+        "type":"",
+        "supply":"",
+        "website":"https://port.finance"
+    },
+    {
+        "name":"SLRS/USDC",
+        "type":"Solrise",
+        "supply":"",
+        "website":"https://solrise.finance"
     }
 
 ]

@@ -685,9 +685,57 @@ const STEPUSDCMarketsInfo = {
 const CRPUSDCMarketsInfo = {
   address: new PublicKey("8nXjHLfiR6wB22J7VBGeKjsRiSa54Eu7cgL17GE4kJUw"),
   deprecated: false,
+  name : "OLD CRP/USDC",
+  quoteLabel: "USDC",
+  baseLabel: "CRP",
+  programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
+};
+const newCRPUSDCMarketsInfo = {
+  address: new PublicKey("93mtNf4qzvytwp5sWrSC7JNUccPAomEE39ztErUq5V3F"),
+  deprecated: false,
   name : "CRP/USDC",
   quoteLabel: "USDC",
   baseLabel: "CRP",
+  programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
+};
+const ATLASUSDCMarketsInfo = {
+  address: new PublicKey("Di66GTLsV64JgCCYGVcY21RZ173BHkjJVgPyezNN7P1K"),
+  deprecated: false,
+  name : "ATLAS/USDC",
+  quoteLabel: "USDC",
+  baseLabel: "ATLAS",
+  programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
+};
+const POLISUSDCMarketsInfo = {
+  address: new PublicKey("HxFLKUAmAMLz1jtT3hbvCMELwH5H9tpM2QugP8sKyfhW"),
+  deprecated: false,
+  name : "POLIS/USDC",
+  quoteLabel: "USDC",
+  baseLabel: "POLIS",
+  programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
+};
+const SLRSUSDCMarketsInfo = {
+  address: new PublicKey("2Gx3UfV831BAh8uQv1FKSPKS9yajfeeD8GJ4ZNb2o2YP"),
+  deprecated: false,
+  name : "SLRS/USDC",
+  quoteLabel: "USDC",
+  baseLabel: "SLRS",
+  programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
+};
+const SUNNYUSDCMarketsInfo = {
+  address: new PublicKey("Aubv1QBFh4bwB2wbP1DaPW21YyQBLfgjg8L4PHTaPzRc"),
+  deprecated: false,
+  name : "SUNNY/USDC",
+  quoteLabel: "USDC",
+  baseLabel: "SUNNY",
+  programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
+};
+const PORTUSDCMarketsInfo = {
+  address: new PublicKey("8x8jf7ikJwgP9UthadtiGFgfFuyyyYPHL3obJAuxFWko"),
+  deprecated: false,
+  name : "PORT/USDC",
+  quoteLabel: "USDC",
+  baseLabel: "PORT",
   programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
 };
 
@@ -781,6 +829,13 @@ export const USE_MARKETS: MarketInfo[] = _IGNORE_DEPRECATED
 .concat(ORCAUSDCMarketsInfo)
 .concat(STEPUSDCMarketsInfo)
 .concat(CRPUSDCMarketsInfo)
+.concat(newCRPUSDCMarketsInfo)
+.concat(ATLASUSDCMarketsInfo)
+.concat(POLISUSDCMarketsInfo)
+.concat(PORTUSDCMarketsInfo)
+.concat(SUNNYUSDCMarketsInfo)
+.concat(SLRSUSDCMarketsInfo)
+
   : MARKETS;
 
 export function useMarketsList() {

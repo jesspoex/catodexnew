@@ -102,7 +102,11 @@ import GSAIL from '../assets/GSAIL.png';
 import LIKE from '../assets/ONLY1.svg';
 import STEP from '../assets/step.png';
 import CRP from '../assets/CRP.png';
-
+import ATLAS from '../assets/ATLAS.png';
+import PORT from '../assets/PORT.png';
+import SLRS from '../assets/SLRS.png';
+import POLIS from '../assets/ATLAS.jpg';
+import SUNNY from '../assets/SUNNY.png';
 
 
 const mockdict = {
@@ -179,6 +183,11 @@ const mockdict = {
   ORCA: ORCA,
   STEP: STEP,
   CRP: CRP,
+  ATLAS: ATLAS,
+  POLIS: POLIS,
+  PORT: PORT,
+  SLRS: SLRS,
+  SUNNY: SUNNY,
 };
 const { Option, OptGroup } = Select;
 

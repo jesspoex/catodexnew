@@ -523,7 +523,7 @@ const BOLEUSDCMarketsInfo = {
   programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
 };
 const LIQUSDCMarketsInfo = {
-  address: new PublicKey("FLKUQGh9VAG4otn4njLPUf5gaUPx5aAZ2Q6xWiD3hH5u"),
+  address: new PublicKey("D7p7PebNjpkH6VNHJhmiDFNmpz9XE7UaTv9RouxJMrwb"),
   deprecated: false,
   name : "LIQ/USDC",
   quoteLabel: "USDC",

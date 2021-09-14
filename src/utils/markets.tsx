@@ -738,6 +738,14 @@ const PORTUSDCMarketsInfo = {
   baseLabel: "PORT",
   programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
 };
+const SOLBERRYUSDCMarketsInfo = {
+  address: new PublicKey("HchZzqewgC4pfsJU9uxFsrP4sLDqLsDntYRzE5RgrBak"),
+  deprecated: false,
+  name : "SOLBERRY/USDC",
+  quoteLabel: "USDC",
+  baseLabel: "SOLBERRY",
+  programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
+};
 
 export const USE_MARKETS: MarketInfo[] = _IGNORE_DEPRECATED
   ? Array<{
@@ -835,6 +843,7 @@ export const USE_MARKETS: MarketInfo[] = _IGNORE_DEPRECATED
 .concat(PORTUSDCMarketsInfo)
 .concat(SUNNYUSDCMarketsInfo)
 .concat(SLRSUSDCMarketsInfo)
+.concat(SOLBERRYUSDCMarketsInfo)
 
   : MARKETS;
 

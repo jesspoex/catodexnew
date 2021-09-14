@@ -839,6 +839,14 @@
       "tokenMint": "7xzovRepzLvXbbpVZLYKzEBhCNgStEv1xpDqf1rMFFKX",
       "supply": 0,
       "fixedsupply": "no"
+    },
+    {
+      "tokenName": "SOLBERRY",
+      "marketAddress": "HchZzqewgC4pfsJU9uxFsrP4sLDqLsDntYRzE5RgrBak",
+      "decimals": 6,
+      "tokenMint": "EWS2ATMt5fQk89NWLJYNRmGaNoji8MhFZkUB4DiWCCcz",
+      "supply": 0,
+      "fixedsupply": "yes"
     }
   ]
 }

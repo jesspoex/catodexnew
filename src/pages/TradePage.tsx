@@ -107,6 +107,7 @@ import PORT from '../assets/PORT.png';
 import SLRS from '../assets/SLRS.png';
 import POLIS from '../assets/ATLAS.jpg';
 import SUNNY from '../assets/SUNNY.png';
+import SOLBERRY from '../assets/SOLBERRY.png';
 
 
 const mockdict = {
@@ -188,6 +189,7 @@ const mockdict = {
   PORT: PORT,
   SLRS: SLRS,
   SUNNY: SUNNY,
+  SOLBERRY: SOLBERRY,
 };
 const { Option, OptGroup } = Select;
 

@@ -473,6 +473,12 @@
         "type":"Solrise",
         "supply":"",
         "website":"https://solrise.finance"
+    },
+    {
+        "name":"SOLBERRY/USDC",
+        "type":"Berry",
+        "supply":"",
+        "website":"https://dex.solberry.tech/"
     }
 
 ]

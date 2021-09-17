@@ -746,6 +746,30 @@ const SOLBERRYUSDCMarketsInfo = {
   baseLabel: "SOLBERRY",
   programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
 };
+const DATEUSDCMarketsInfo = {
+  address: new PublicKey("3jszawPiXjuqg5MwAAHS8wehWy1k7de5u5pWmmPZf6dM"),
+  deprecated: false,
+  name : "DATE/USDC",
+  quoteLabel: "USDC",
+  baseLabel: "DATE",
+  programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
+};
+const LARIXUSDCMarketsInfo = {
+  address: new PublicKey("BeF2PKq2jmTJraWEhP28H8BQHUVtuzTyFogtKkxi6D6"),
+  deprecated: false,
+  name : "LARIX/USDC",
+  quoteLabel: "USDC",
+  baseLabel: "LARIX",
+  programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
+};
+const GRAPEUSDCMarketsInfo = {
+  address: new PublicKey("72aW3Sgp1hMTXUiCq8aJ39DX2Jr7sZgumAvdLrLuCMLe"),
+  deprecated: false,
+  name : "GRAPE/USDC",
+  quoteLabel: "USDC",
+  baseLabel: "GRAPE",
+  programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
+};
 
 export const USE_MARKETS: MarketInfo[] = _IGNORE_DEPRECATED
   ? Array<{
@@ -844,6 +868,9 @@ export const USE_MARKETS: MarketInfo[] = _IGNORE_DEPRECATED
 .concat(SUNNYUSDCMarketsInfo)
 .concat(SLRSUSDCMarketsInfo)
 .concat(SOLBERRYUSDCMarketsInfo)
+.concat(DATEUSDCMarketsInfo)
+.concat(LARIXUSDCMarketsInfo)
+.concat(GRAPEUSDCMarketsInfo)
 
   : MARKETS;
 

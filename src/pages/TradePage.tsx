@@ -108,7 +108,9 @@ import SLRS from '../assets/SLRS.png';
 import POLIS from '../assets/ATLAS.jpg';
 import SUNNY from '../assets/SUNNY.png';
 import SOLBERRY from '../assets/SOLBERRY.png';
-
+import DATE from '../assets/DATE.png';
+import LARIX from '../assets/LARIX.png';
+import GRAPE from '../assets/GRAPE.png';
 
 const mockdict = {
   ETH: ETH,
@@ -190,6 +192,9 @@ const mockdict = {
   SLRS: SLRS,
   SUNNY: SUNNY,
   SOLBERRY: SOLBERRY,
+  DATE: DATE,
+  LARIX: LARIX,
+  GRAPE: GRAPE,
 };
 const { Option, OptGroup } = Select;
 

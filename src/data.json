@@ -479,6 +479,24 @@
         "type":"Berry",
         "supply":"",
         "website":"https://dex.solberry.tech/"
+    },
+    {
+        "name":"DATE/USDC",
+        "type":"DATE",
+        "supply":"",
+        "website":"https://www.soldate.org/"
+    },
+    {
+        "name":"LARIX/USDC",
+        "type":"LARIX",
+        "supply":"",
+        "website":"https://projectlarix.com/"
+    },
+    {
+        "name":"GRAPE/USDC",
+        "type":"GRAPE",
+        "supply":"",
+        "website":"https://grapes.network/"
     }
 
 ]

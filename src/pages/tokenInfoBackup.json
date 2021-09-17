@@ -847,6 +847,30 @@
       "tokenMint": "EWS2ATMt5fQk89NWLJYNRmGaNoji8MhFZkUB4DiWCCcz",
       "supply": 0,
       "fixedsupply": "yes"
+    },
+    {
+      "tokenName": "DATE",
+      "marketAddress": "3jszawPiXjuqg5MwAAHS8wehWy1k7de5u5pWmmPZf6dM",
+      "decimals": 9,
+      "tokenMint": "Ce3PSQfkxT5ua4r2JqCoWYrMwKWC5hEzwsrT9Hb7mAz9",
+      "supply": 0,
+      "fixedsupply": "yes"
+    },
+    {
+      "tokenName": "LARIX",
+      "marketAddress": "BeF2PKq2jmTJraWEhP28H8BQHUVtuzTyFogtKkxi6D6",
+      "decimals": 6,
+      "tokenMint": "Lrxqnh6ZHKbGy3dcrCED43nsoLkM1LTzU2jRfWe8qUC",
+      "supply": 0,
+      "fixedsupply": "yes"
+    },
+    {
+      "tokenName": "GRAPE",
+      "marketAddress": "72aW3Sgp1hMTXUiCq8aJ39DX2Jr7sZgumAvdLrLuCMLe",
+      "decimals": 6,
+      "tokenMint": "8upjSpvjcdpuzhfR1zriwg5NXkwDruejqNE9WNbPRtyA",
+      "supply": 0,
+      "fixedsupply": "no"
     }
   ]
 }

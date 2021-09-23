@@ -497,6 +497,30 @@
         "type":"GRAPE",
         "supply":"",
         "website":"https://grapes.network/"
+    },
+    {
+        "name":"CYS/USDC",
+        "type":"AMM bringing concentrated liquidity to Solana",
+        "supply":"",
+        "website":"https://app.cyclos.io/"
+    },
+    {
+        "name":"HAMS/USDC",
+        "type":"Space Hamster",
+        "supply":"",
+        "website":"https://solhamster.space/"
+    },
+    {
+        "name":"SWAN/USDC",
+        "type":"SWANLANA",
+        "supply":"",
+        "website":"https://www.swanlana.com/"
+    },
+    {
+        "name":"BDE/USDC",
+        "type":"BDE",
+        "supply":"",
+        "website":"https://bigdefienergy.com/"
     }
 
 ]

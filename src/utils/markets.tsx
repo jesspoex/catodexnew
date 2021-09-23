@@ -770,6 +770,38 @@ const GRAPEUSDCMarketsInfo = {
   baseLabel: "GRAPE",
   programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
 };
+const CYSUSDCMarketsInfo = {
+  address: new PublicKey("6V6y6QFi17QZC9qNRpVp7SaPiHpCTp2skbRQkUyZZXPW"),
+  deprecated: false,
+  name : "CYS/USDC",
+  quoteLabel: "USDC",
+  baseLabel: "CYS",
+  programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
+};
+const HAMSUSDCMarketsInfo = {
+  address: new PublicKey("5j6hdwx4eW3QBYZtRjKiUj7aDA1dxDpveSHBznwq7kUv"),
+  deprecated: false,
+  name : "HAMS/USDC",
+  quoteLabel: "USDC",
+  baseLabel: "HAMS",
+  programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
+};
+const SWANUSDCMarketsInfo = {
+  address: new PublicKey("8zPVSrun5AnePjXWjC4EgMdBaLdHtkSUtYbFNobzQHRN"),
+  deprecated: false,
+  name : "SWAN/USDC",
+  quoteLabel: "USDC",
+  baseLabel: "SWAN",
+  programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
+};
+const BDEUSDCMarketsInfo = {
+  address: new PublicKey("2kQer4JyDA8wRxNpSCNG8zAne1zwWVhByTUu8Qi6BEjR"),
+  deprecated: false,
+  name : "BDE/USDC",
+  quoteLabel: "USDC",
+  baseLabel: "BDE",
+  programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
+};
 
 export const USE_MARKETS: MarketInfo[] = _IGNORE_DEPRECATED
   ? Array<{
@@ -871,6 +903,10 @@ export const USE_MARKETS: MarketInfo[] = _IGNORE_DEPRECATED
 .concat(DATEUSDCMarketsInfo)
 .concat(LARIXUSDCMarketsInfo)
 .concat(GRAPEUSDCMarketsInfo)
+.concat(CYSUSDCMarketsInfo)
+.concat(HAMSUSDCMarketsInfo)
+.concat(BDEUSDCMarketsInfo)
+.concat(SWANUSDCMarketsInfo)
 
   : MARKETS;
 

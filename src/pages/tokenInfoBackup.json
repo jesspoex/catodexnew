@@ -871,6 +871,38 @@
       "tokenMint": "8upjSpvjcdpuzhfR1zriwg5NXkwDruejqNE9WNbPRtyA",
       "supply": 0,
       "fixedsupply": "no"
+    },
+    {
+      "tokenName": "CYS",
+      "marketAddress": "6V6y6QFi17QZC9qNRpVp7SaPiHpCTp2skbRQkUyZZXPW",
+      "decimals": 6,
+      "tokenMint": "BRLsMczKuaR5w9vSubF4j8HwEGGprVAyyVgS4EX7DKEg",
+      "supply": 0,
+      "fixedsupply": "no"
+    },
+    {
+      "tokenName": "HAMS",
+      "marketAddress": "5j6hdwx4eW3QBYZtRjKiUj7aDA1dxDpveSHBznwq7kUv",
+      "decimals": 9,
+      "tokenMint": "A2T2jDe2bxyEHkKtS8AtrTRmJ9VZRwyY8Kr7oQ8xNyfb",
+      "supply": 0,
+      "fixedsupply": "yes"
+    },
+    {
+      "tokenName": "SWAN",
+      "marketAddress": "8zPVSrun5AnePjXWjC4EgMdBaLdHtkSUtYbFNobzQHRN",
+      "decimals": 9,
+      "tokenMint": "SWANaZUGxF82KyVsbxeeNsMaVECtimze5VyCdywkvkH",
+      "supply": 0,
+      "fixedsupply": "no"
+    },
+    {
+      "tokenName": "BDE",
+      "marketAddress": "2kQer4JyDA8wRxNpSCNG8zAne1zwWVhByTUu8Qi6BEjR",
+      "decimals": 9,
+      "tokenMint": "H5gczCNbrtso6BqGKihF97RaWaxpUEZnFuFUKK4YX3s2",
+      "supply": 0,
+      "fixedsupply": "no"
     }
   ]
 }

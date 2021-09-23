@@ -111,6 +111,10 @@ import SOLBERRY from '../assets/SOLBERRY.png';
 import DATE from '../assets/DATE.png';
 import LARIX from '../assets/LARIX.png';
 import GRAPE from '../assets/GRAPE.png';
+import CYS from '../assets/CYS.svg';
+import HAMS from '../assets/HAMS.png';
+import BDE from '../assets/BDE.png';
+import SWAN from '../assets/SWAN.png';
 
 const mockdict = {
   ETH: ETH,
@@ -195,6 +199,10 @@ const mockdict = {
   DATE: DATE,
   LARIX: LARIX,
   GRAPE: GRAPE,
+  CYS: CYS,
+  HAMS: HAMS,
+  BDE: BDE,
+  SWAN: SWAN,
 };
 const { Option, OptGroup } = Select;
 
@@ -718,7 +726,7 @@ function Banner ({marketName, smallScreen = false}){
         </Card>
         </Col>
       <Col style = {{width: "40%", textAlign:"center"}}>
-      <a href="https://twitter.com/SolanaCATO/status/1427898742506590221"><Image style = {{height:"250px", width: "450px"}} src = {adbanner}/></a>
+      <a href="https://bit.ly/catoplaystore"><Image style = {{height:"250px", width: "450px"}} src = {adbanner}/></a>
       </Col>
     </Row>
     :
@@ -778,7 +786,7 @@ function Banner ({marketName, smallScreen = false}){
         </Card>
        </Row>
         <Row style = {{height:"50%"}}>
-        <a href="https://twitter.com/SolanaCATO/status/1427898742506590221"><Image style = {{height:"250px", width: "345px"}} src = {adbanner}/></a>
+        <a href="https://bit.ly/catoplaystore"><Image style = {{height:"250px", width: "345px"}} src = {adbanner}/></a>
         </Row>
         </Col>  
     </Row>

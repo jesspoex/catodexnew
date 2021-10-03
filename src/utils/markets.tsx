@@ -802,6 +802,22 @@ const BDEUSDCMarketsInfo = {
   baseLabel: "BDE",
   programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
 };
+const FOSSILUSDCMarketsInfo = {
+  address: new PublicKey("NF5PoXovc9wpWMPMrGeCQSmJRAEEUFCR3UZGVHTonf9"),
+  deprecated: false,
+  name : "FOSSIL/USDC",
+  quoteLabel: "USDC",
+  baseLabel: "FOSSIL",
+  programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
+};
+const SOLMOUSDCMarketsInfo = {
+  address: new PublicKey("FZAn2H4kzz4bFuez3Hqgg2qz1sHRQ5mPZkowiWMk95sX"),
+  deprecated: false,
+  name : "SOLMO/USDC",
+  quoteLabel: "USDC",
+  baseLabel: "SOLMO",
+  programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
+};
 
 export const USE_MARKETS: MarketInfo[] = _IGNORE_DEPRECATED
   ? Array<{
@@ -907,6 +923,8 @@ export const USE_MARKETS: MarketInfo[] = _IGNORE_DEPRECATED
 .concat(HAMSUSDCMarketsInfo)
 .concat(BDEUSDCMarketsInfo)
 .concat(SWANUSDCMarketsInfo)
+.concat(FOSSILUSDCMarketsInfo)
+.concat(SOLMOUSDCMarketsInfo)
 
   : MARKETS;
 

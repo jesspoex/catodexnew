@@ -115,6 +115,8 @@ import CYS from '../assets/CYS.svg';
 import HAMS from '../assets/HAMS.png';
 import BDE from '../assets/BDE.png';
 import SWAN from '../assets/SWAN.png';
+import FOSSIL from '../assets/FOSSIL.svg';
+import SOLMO from '../assets/SOLMO.png';
 
 const mockdict = {
   ETH: ETH,
@@ -203,6 +205,8 @@ const mockdict = {
   HAMS: HAMS,
   BDE: BDE,
   SWAN: SWAN,
+  FOSSIL: FOSSIL,
+  SOLMO: SOLMO,
 };
 const { Option, OptGroup } = Select;
 

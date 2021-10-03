@@ -17,7 +17,7 @@ const programId = "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA";
 export const PROGRAM_ID = new PublicKey(
   "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
 );
-const solanaUrl = "https://api.mainnet-beta.solana.com/";
+const solanaUrl = "https://solana-api.projectserum.com/";
 const orangeShade = "#CBCAC8";
 const serverUrl = "http://31.220.52.230";
 const columns = [

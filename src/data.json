@@ -259,12 +259,6 @@
         "website":""
     },
     {
-        "name":"SMB/USDC",
-        "type":"",
-        "supply":"",
-        "website":""
-    },
-    {
         "name":"SOLANADON/USDC",
         "type":"",
         "supply":"",
@@ -521,6 +515,12 @@
         "type":"BDE",
         "supply":"",
         "website":"https://bigdefienergy.com/"
+    },
+    {
+        "name":"MIM/USDC",
+        "type":"MIM",
+        "supply":"",
+        "website":":https://www.mim-swarm.com/"
     }
 
 ]

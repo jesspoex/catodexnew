@@ -418,14 +418,6 @@ const SLNDNUSDCMarketsInfo = {
   baseLabel: "SLNDN",
   programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
 };
-const SMBUSDCMarketsInfo = {
-  address: new PublicKey("5UX7hmdrk78N2rpVJfgFoqhZki62f5Lgh96kPSWaHKmc"),
-  deprecated: false,
-  name : "SMB/USDC",
-  quoteLabel: "USDC",
-  baseLabel: "SMB",
-  programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
-};
 const SOLANADONUSDCMarketsInfo = {
   address: new PublicKey("F4CtSAoT1xrQSgGAJ5sVBkhofjbh4m7LcYtSKk26u9Ty"),
   deprecated: false,
@@ -818,6 +810,14 @@ const SOLMOUSDCMarketsInfo = {
   baseLabel: "SOLMO",
   programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
 };
+const MIMUSDCMarketsInfo = {
+  address: new PublicKey("8GaWdgZ5yPxQpxGii2HCWKQj1JgabH9SGCHx2fFwZK6t"),
+  deprecated: false,
+  name : "MIM/USDC",
+  quoteLabel: "USDC",
+  baseLabel: "MIM",
+  programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
+};
 
 export const USE_MARKETS: MarketInfo[] = _IGNORE_DEPRECATED
   ? Array<{
@@ -875,7 +875,6 @@ export const USE_MARKETS: MarketInfo[] = _IGNORE_DEPRECATED
 .concat( SDOGEUSDCMarketsInfo )
 .concat( STNKUSDCMarketsInfo )
 .concat( SLNDNUSDCMarketsInfo )
-.concat( SMBUSDCMarketsInfo )
 .concat( SOLANADONUSDCMarketsInfo )
 .concat( SOLAPEUSDCMarketsInfo )
 .concat( SUSHIUSDCMarketsInfo )
@@ -925,6 +924,7 @@ export const USE_MARKETS: MarketInfo[] = _IGNORE_DEPRECATED
 .concat(SWANUSDCMarketsInfo)
 .concat(FOSSILUSDCMarketsInfo)
 .concat(SOLMOUSDCMarketsInfo)
+.concat(MIMUSDCMarketsInfo)
 
   : MARKETS;
 

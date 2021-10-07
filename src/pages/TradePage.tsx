@@ -118,6 +118,7 @@ import SWAN from '../assets/SWAN.png';
 import FOSSIL from '../assets/FOSSIL.svg';
 import SOLMO from '../assets/SOLMO.png';
 import MIM from '../assets/MIM.svg';
+import CHIH from '../assets/CHIH.png';
 
 const mockdict = {
   ETH: ETH,
@@ -209,6 +210,7 @@ const mockdict = {
   FOSSIL: FOSSIL,
   SOLMO: SOLMO,
   MIM: MIM,
+  CHIH: CHIH,
 };
 const { Option, OptGroup } = Select;
 

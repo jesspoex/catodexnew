@@ -521,6 +521,12 @@
         "type":"MIM",
         "supply":"",
         "website":":https://www.mim-swarm.com/"
+    },
+    {
+        "name":"CHIH/USDC",
+        "type":"CHIH",
+        "supply":"",
+        "website":":https://chihuahuasol.com/"
     }
 
 ]

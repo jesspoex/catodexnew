@@ -818,6 +818,14 @@ const MIMUSDCMarketsInfo = {
   baseLabel: "MIM",
   programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
 };
+const CHIHUSDCMarketsInfo = {
+  address: new PublicKey("prLiL5ZsdKxDWT6doGZ4sEYHPoFxPBEGU5vJXffzShe"),
+  deprecated: false,
+  name : "CHIH/USDC",
+  qouteLable: "USDC",
+  baseLable: "CHIH",
+  programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
+}
 
 export const USE_MARKETS: MarketInfo[] = _IGNORE_DEPRECATED
   ? Array<{
@@ -925,6 +933,7 @@ export const USE_MARKETS: MarketInfo[] = _IGNORE_DEPRECATED
 .concat(FOSSILUSDCMarketsInfo)
 .concat(SOLMOUSDCMarketsInfo)
 .concat(MIMUSDCMarketsInfo)
+.concat(CHIHUSDCMarketsInfo)
 
   : MARKETS;
 

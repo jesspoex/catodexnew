@@ -712,6 +712,19 @@
     "discord":"",
     "telegram":"",
     "circulating_supply":""
+  },
+  {
+    "token_name":"CHIH",
+    "token_pair":"CHIH/USDC",
+    "token_description":"Chihuahua Sol",
+    "market_address":"prLiL5ZsdKxDWT6doGZ4sEYHPoFxPBEGU5vJXffzShe",
+    "token_address":"6xtyNYX6Rf4Kp3629X11m1jqUmkV89mf9xQakUtUQfHq",
+    "token_logo":"",
+    "wesbite":"",
+    "twitter":"",
+    "discord":"",
+    "telegram":"",
+    "circulating_supply":""
   }
   
 ]

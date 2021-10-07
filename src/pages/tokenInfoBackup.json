@@ -903,6 +903,14 @@
       "tokenMint": "H5gczCNbrtso6BqGKihF97RaWaxpUEZnFuFUKK4YX3s2",
       "supply": 0,
       "fixedsupply": "no"
+    },
+    {
+      "tokenName": "CHIH",
+      "marketAddress": "prLiL5ZsdKxDWT6doGZ4sEYHPoFxPBEGU5vJXffzShe",
+      "decimals": 9,
+      "tokenMint": "6xtyNYX6Rf4Kp3629X11m1jqUmkV89mf9xQakUtUQfHq",
+      "supply": 0,
+      "fixedsupply": "yes"
     }
   ]
 }

@@ -520,13 +520,31 @@
         "name":"MIM/USDC",
         "type":"MIM",
         "supply":"",
-        "website":":https://www.mim-swarm.com/"
+        "website":"https://www.mim-swarm.com/"
     },
     {
         "name":"CHIH/USDC",
         "type":"CHIH",
         "supply":"",
-        "website":":https://chihuahuasol.com/"
+        "website":"https://chihuahuasol.com/"
+    },
+    {
+        "name":"ALM/USDC",
+        "type":"Yield Farming",
+        "supply":"",
+        "website":"https://almond.so/"
+    },
+    {
+        "name":"BST/USDC",
+        "type":"Balisari",
+        "supply":"",
+        "website":"https://www.balisaritrans.site/"
+    },
+    {
+        "name":"NAXAR/USDC",
+        "type":"",
+        "supply":"",
+        "website":"https://naxar.ru/"
     }
 
 ]

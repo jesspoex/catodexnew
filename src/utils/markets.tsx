@@ -825,6 +825,30 @@ const CHIHUSDCMarketsInfo = {
   qouteLable: "USDC",
   baseLable: "CHIH",
   programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
+};
+const ALMUSDCMarketsInfo = {
+  address: new PublicKey("DNxn3qM61GZddidjrzc95398SCWhm5BUyt8Y8SdKYr8W"),
+  deprecated: false,
+  name : "ALM/USDC",
+  qouteLable: "USDC",
+  baseLable: "ALM",
+  programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
+};
+const NAXARUSDCMarketsInfo = {
+  address: new PublicKey("5WSgaKbwpuy18jHg7mCUXY8YhTL2zVZZkeXi844YTLob"),
+  deprecated: false,
+  name : "NAXAR/USDC",
+  qouteLable: "USDC",
+  baseLable: "NAXAR",
+  programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
+};
+const BSTUSDCMarketsInfo = {
+  address: new PublicKey("Hq2tZzrdNrMtDsdXeCf9CrN3aS3geJTEqtLRPyiYRZc"),
+  deprecated: false,
+  name : "BST/USDC",
+  qouteLable: "USDC",
+  baseLable: "BST",
+  programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
 }
 
 export const USE_MARKETS: MarketInfo[] = _IGNORE_DEPRECATED
@@ -934,6 +958,9 @@ export const USE_MARKETS: MarketInfo[] = _IGNORE_DEPRECATED
 .concat(SOLMOUSDCMarketsInfo)
 .concat(MIMUSDCMarketsInfo)
 .concat(CHIHUSDCMarketsInfo)
+.concat(ALMUSDCMarketsInfo)
+.concat(BSTUSDCMarketsInfo)
+.concat(NAXARUSDCMarketsInfo)
 
   : MARKETS;
 

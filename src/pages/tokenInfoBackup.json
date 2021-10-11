@@ -911,6 +911,30 @@
       "tokenMint": "6xtyNYX6Rf4Kp3629X11m1jqUmkV89mf9xQakUtUQfHq",
       "supply": 0,
       "fixedsupply": "yes"
+    },
+    {
+      "tokenName": "ALM",
+      "marketAddress": "DNxn3qM61GZddidjrzc95398SCWhm5BUyt8Y8SdKYr8W",
+      "decimals": 6,
+      "tokenMint": "ALMmmmbt5KNrPPUBFE4dAKUKSPWTop5s3kUGCdF69gmw",
+      "supply": 0,
+      "fixedsupply": "no"
+    },
+    {
+      "tokenName": "BST",
+      "marketAddress": "Hq2tZzrdNrMtDsdXeCf9CrN3aS3geJTEqtLRPyiYRZc",
+      "decimals": 6,
+      "tokenMint": "EYDEQW4xQzLqHcFwHTgGvpdjsa5EFn74KzuqLX5emjD2",
+      "supply": 0,
+      "fixedsupply": "no"
+    },
+    {
+      "tokenName": "NAXAR",
+      "marketAddress": "5WSgaKbwpuy18jHg7mCUXY8YhTL2zVZZkeXi844YTLob",
+      "decimals": 4,
+      "tokenMint": "Fp4gjLpTsPqBN6xDGpDHwtnuEofjyiZKxxZxzvJnjxV6",
+      "supply": 0,
+      "fixedsupply": "no"
     }
   ]
 }

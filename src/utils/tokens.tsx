@@ -28,9 +28,9 @@ export const MINT_LAYOUT = BufferLayout.struct([
 ]);
 
 export function parseTokenAccountData(
-  data: Buffer,
+  data: any,
 ): { mint: PublicKey; owner: PublicKey; amount: number } {
-  let { mint, owner, amount } = ACCOUNT_LAYOUT.decode(data);
+  let { mint, owner, amount } = data.parsed.info;
   return {
     mint: new PublicKey(mint),
     owner: new PublicKey(owner),
@@ -82,6 +82,7 @@ export async function getOwnedTokenAccounts(
     {
       commitment: connection.commitment,
       filters,
+      encoding: "jsonParsed"
     },
   ]);
   if (resp.error) {
@@ -96,29 +97,12 @@ export async function getOwnedTokenAccounts(
     .map(({ pubkey, account: { data, executable, owner, lamports } }) => ({
       publicKey: new PublicKey(pubkey),
       accountInfo: {
-        data: bs58.decode(data),
+        data: data,
         executable,
         owner: new PublicKey(owner),
         lamports,
       },
     }))
-    .filter(({ accountInfo }) => {
-      // TODO: remove this check once mainnet is updated
-      return filters.every((filter) => {
-        if (filter.dataSize) {
-          return accountInfo.data.length === filter.dataSize;
-        } else if (filter.memcmp) {
-          let filterBytes = bs58.decode(filter.memcmp.bytes);
-          return accountInfo.data
-            .slice(
-              filter.memcmp.offset,
-              filter.memcmp.offset + filterBytes.length,
-            )
-            .equals(filterBytes);
-        }
-        return false;
-      });
-    });
 }
 
 export async function getTokenAccountInfo(

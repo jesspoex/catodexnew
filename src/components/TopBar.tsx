@@ -171,7 +171,7 @@ export default function TopBar() {
             </Menu.Item>
           )}
           {connected && (!searchFocussed || location.pathname === '/catofolio') && (
-            <Menu.Item disabled={true}  key="/catofolio" style={{ margin: '0 10px' }}>
+            <Menu.Item  key="/catofolio" style={{ margin: '0 10px' }}>
               CATOFOLIO
             </Menu.Item>
           )}

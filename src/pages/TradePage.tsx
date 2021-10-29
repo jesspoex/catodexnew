@@ -657,7 +657,7 @@ function Banner ({marketName, smallScreen = false}){
       data.meta && data.meta.volume24h && setVolume(data.meta.volume24h.toFixed(2))
       data.basemint && data.basemint.address && setAddress(data.basemint.address);
       data.meta && data.meta.liquidity && data.meta.liquidity.total && setLiquidity(data.meta.liquidity.total.toFixed(2));
-      fetch('https://api.solanabeach.io/v1/token/'+data.basemint.address, requestOptions)
+      data.basemint && data.basemint.address && fetch('https://api.solanabeach.io/v1/token/'+data.basemint.address, requestOptions)
       .then(result => result.json())
       .then(data =>{
         data.holders && setHolder(data.holders);

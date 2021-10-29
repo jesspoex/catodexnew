@@ -42,9 +42,9 @@ export function Routes() {
               <PoolPage />
             </Route>
             {
-            //<Route exact path="/catofolio">
-              //<WalletInfo />
-            //</Route>
+            <Route exact path="/catofolio">
+              <WalletInfo />
+            </Route>
           }
           </Switch>
         </BasicLayout>

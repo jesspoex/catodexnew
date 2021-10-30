@@ -19,7 +19,7 @@ export const PROGRAM_ID = new PublicKey(
 );
 const solanaUrl = "https://solana-api.projectserum.com/";
 const orangeShade = "#CBCAC8";
-const serverUrl = "http://31.220.52.230";
+const serverUrl = "https://31.220.52.230";
 const columns = [
   {
     title: <strong>Signature</strong>,

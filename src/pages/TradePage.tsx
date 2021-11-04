@@ -656,9 +656,20 @@ function Banner ({marketName, smallScreen = false}){
     fetch('https://api.solanabeach.io/v1/market/'+newAddress, requestOptions)
     .then(result => result.json())
     .then(data => {
-      data.meta && data.meta.volume24h && setVolume(data.meta.volume24h.toFixed(2))
+      try {
+        let tempVolume = data.meta.volume.quote.amount.toString();
+        let realVolume = tempVolume.substring(0, tempVolume.length - data.meta.volume.quote.decimals);
+        let templiquidity = data.meta.liquidity.quote.amount.toString();
+        let realliquidity = templiquidity.substring(0, templiquidity.length - data.meta.liquidity.quote.decimals);
+        if (data.basemint.name === "CATO")
+          realVolume = realVolume + "0";
+        setVolume(realVolume);
+        setLiquidity(realliquidity);
+      }
+      catch(e){
+        console.log(e);
+      }
       data.basemint && data.basemint.address && setAddress(data.basemint.address);
-      data.meta && data.meta.liquidity && data.meta.liquidity.total && setLiquidity(data.meta.liquidity.total.toFixed(2));
       data.basemint && data.basemint.address && fetch('https://api.solanabeach.io/v1/token/'+data.basemint.address, requestOptions)
       .then(result => result.json())
       .then(data =>{

@@ -498,12 +498,12 @@ const PARTIUSDCMarketsInfo = {
   baseLabel: "PARTI",
   programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
 };
-const SNOWSHOEUSDCMarketsInfo = {
+const ASHUSDCMarketsInfo = {
   address: new PublicKey("56ZFVzqMqtDmyry9bK7vi1szUV2nuQ4kT6CzFAB649wE"),
   deprecated: false,
-  name : "SNOWSHOE/USDC",
+  name : "ASH/USDC",
   quoteLabel: "USDC",
-  baseLabel: "SNOWSHOE",
+  baseLabel: "ASH",
   programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
 };
 const BOLEUSDCMarketsInfo = {
@@ -849,7 +849,23 @@ const BSTUSDCMarketsInfo = {
   qouteLable: "USDC",
   baseLable: "BST",
   programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
-}
+};
+const SAILGSAILMarketsInfo = {
+  address: new PublicKey("Dk3onSPUkNky5P4Cb6MXvvUuzR9d7PuvtuSqdqiWk6FH"),
+  deprecated: false,
+  name : "SAIL/GSAIL",
+  qouteLable: "SAIL",
+  baseLable: "GSAIL",
+  programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
+};
+const SPWNUSDCMarketsInfo = {
+  address: new PublicKey("41UQxR6MBKfkXEpeiXvouagiAZWZsEbcrGyNHHDa4LnK"),
+  deprecated: false,
+  name : "SPWN/USDC",
+  qouteLable: "USDC",
+  baseLable: "SPWN",
+  programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
+};
 
 export const USE_MARKETS: MarketInfo[] = _IGNORE_DEPRECATED
   ? Array<{
@@ -918,7 +934,7 @@ export const USE_MARKETS: MarketInfo[] = _IGNORE_DEPRECATED
 .concat( MEDIAUSDCMarketsInfo )
 .concat(PARTIUSDCMarketsInfo)
 .concat(BOLEUSDCMarketsInfo)
-.concat(SNOWSHOEUSDCMarketsInfo)
+.concat(ASHUSDCMarketsInfo)
 .concat(LIQUSDCMarketsInfo)
 .concat(TUTLSOLMarketsInfo)
 .concat(CAPEUSDCMarketsInfo)
@@ -961,6 +977,8 @@ export const USE_MARKETS: MarketInfo[] = _IGNORE_DEPRECATED
 .concat(ALMUSDCMarketsInfo)
 .concat(BSTUSDCMarketsInfo)
 .concat(NAXARUSDCMarketsInfo)
+.concat(SAILGSAILMarketsInfo)
+.concat(SPWNUSDCMarketsInfo)
 
   : MARKETS;
 

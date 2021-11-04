@@ -80,7 +80,7 @@ import mBRZ from '../assets/mBRZ.png';
 import MEOW from '../assets/sCAT.jpg';
 import xCOPE from '../assets/COPE.jpg';
 import PARTI from '../assets/PARTI.png';
-import SNOWSHOE from '../assets/snw.png';
+import ASH from '../assets/ASH.png';
 import BOLE from '../assets/BOLE.png';
 import LIQ from '../assets/LIQ.png';
 import TUTL from '../assets/TUTL.png';
@@ -122,6 +122,7 @@ import CHIH from '../assets/CHIH.png';
 import ALM from '../assets/ALM.png';
 import NAXAR from '../assets/NAXAR.png';
 import BST from '../assets/BST.png';  
+import SPWN from '../assets/SPWN.png';
 
 const mockdict = {
   ETH: ETH,
@@ -175,7 +176,7 @@ const mockdict = {
   MEOW: MEOW,
   xCOPE: xCOPE,
   PARTI: PARTI,
-  SNOWSHOW: SNOWSHOE,
+  ASH: ASH,
   BOLE: BOLE,
   LIQ: LIQ,
   TUTL: TUTL,
@@ -217,6 +218,7 @@ const mockdict = {
   ALM: ALM,
   BST: BST,
   NAXAR: NAXAR,
+  SPWN: SPWN,
 };
 const { Option, OptGroup } = Select;
 

@@ -123,6 +123,14 @@ import ALM from '../assets/ALM.png';
 import NAXAR from '../assets/NAXAR.png';
 import BST from '../assets/BST.png';  
 import SPWN from '../assets/SPWN.png';
+import FLOOF from '../assets/FLOOF.png';
+import BMBO from '../assets/BMBO.png';
+import SCUM from '../assets/SCUM.png';
+import SHIBA from '../assets/SHIBA.png';
+import SCHAD from '../assets/SCHAD.png';
+import INU from '../assets/INU.png';
+import NRA from '../assets/NRA.png';
+import HIMA from '../assets/HIMA.png';
 
 const mockdict = {
   ETH: ETH,
@@ -219,6 +227,14 @@ const mockdict = {
   BST: BST,
   NAXAR: NAXAR,
   SPWN: SPWN,
+  BMBO: BMBO,
+  FLOOF: FLOOF,
+  SCUM: SCUM,
+  SHIBA: SHIBA,
+  SCHAD: SCHAD,
+  INU: INU,
+  NRA: NRA,
+  HIMA: HIMA,
 };
 const { Option, OptGroup } = Select;
 

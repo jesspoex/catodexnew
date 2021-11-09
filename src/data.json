@@ -551,6 +551,55 @@
         "type":"",
         "supply":"",
         "website":"https://www.solanasail.com/"
+    },
+    {
+        "name":"BMBO/USDC",
+        "type":"Bamboo",
+        "supply":"",
+        "website":"https://www.bamboocoin.org/"
+    },
+    {
+        "name":"FLOOF/USDC",
+        "type":"The FLOOF",
+        "supply":"",
+        "website":"https://www.floofsolana.com/"
+    },
+    {
+        "name":"HIMA/USDC",
+        "type":"HIMA",
+        "supply":"",
+        "website":"https://www.himalayancatcoin.com/"
+    },
+    {
+        "name":"NRA/USDC",
+        "type":"NRA",
+        "supply":"",
+        "website":"http://solananora.com/"
+    },
+    {
+        "name":"INU/USDC",
+        "type":"INU",
+        "supply":"",
+        "website":"https://www.solanainu.finance/"
+    },
+    {
+        "name":"SCHAD/USDC",
+        "type":"SCHAD",
+        "supply":"",
+        "website":"https://www.superchad.io/"
+    },
+    {
+        "name":"SCUM/USDC",
+        "type":"SCUM",
+        "supply":"",
+        "website":"https://www.solanacum.com/"
+    },
+    {
+        "name":"SHIBA/USDC",
+        "type":"SHIBA",
+        "supply":"",
+        "website":"https://www.shibalana.com/"
     }
+
 
 ]

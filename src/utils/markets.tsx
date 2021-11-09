@@ -822,48 +822,48 @@ const CHIHUSDCMarketsInfo = {
   address: new PublicKey("prLiL5ZsdKxDWT6doGZ4sEYHPoFxPBEGU5vJXffzShe"),
   deprecated: false,
   name : "CHIH/USDC",
-  qouteLable: "USDC",
-  baseLable: "CHIH",
+  quoteLabel: "USDC",
+  baseLabel: "CHIH",
   programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
 };
 const ALMUSDCMarketsInfo = {
   address: new PublicKey("DNxn3qM61GZddidjrzc95398SCWhm5BUyt8Y8SdKYr8W"),
   deprecated: false,
   name : "ALM/USDC",
-  qouteLable: "USDC",
-  baseLable: "ALM",
+  quoteLabel: "USDC",
+  baseLabel: "ALM",
   programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
 };
 const NAXARUSDCMarketsInfo = {
   address: new PublicKey("5WSgaKbwpuy18jHg7mCUXY8YhTL2zVZZkeXi844YTLob"),
   deprecated: false,
   name : "NAXAR/USDC",
-  qouteLable: "USDC",
-  baseLable: "NAXAR",
+  quoteLabel: "USDC",
+  baseLabel: "NAXAR",
   programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
 };
 const BSTUSDCMarketsInfo = {
   address: new PublicKey("Hq2tZzrdNrMtDsdXeCf9CrN3aS3geJTEqtLRPyiYRZc"),
   deprecated: false,
   name : "BST/USDC",
-  qouteLable: "USDC",
-  baseLable: "BST",
+  quoteLabel: "USDC",
+  baseLabel: "BST",
   programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
 };
 const SAILGSAILMarketsInfo = {
   address: new PublicKey("Dk3onSPUkNky5P4Cb6MXvvUuzR9d7PuvtuSqdqiWk6FH"),
   deprecated: false,
   name : "SAIL/GSAIL",
-  qouteLable: "SAIL",
-  baseLable: "GSAIL",
+  quoteLabel: "SAIL",
+  baseLabel: "GSAIL",
   programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
 };
 const SPWNUSDCMarketsInfo = {
   address: new PublicKey("41UQxR6MBKfkXEpeiXvouagiAZWZsEbcrGyNHHDa4LnK"),
   deprecated: false,
   name : "SPWN/USDC",
-  qouteLable: "USDC",
-  baseLable: "SPWN",
+  quoteLabel: "USDC",
+  baseLabel: "SPWN",
   programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
 };
 const BMBOUSDCMarketsInfo = {

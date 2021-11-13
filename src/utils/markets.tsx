@@ -930,6 +930,38 @@ const HIMAUSDCMarketsInfo = {
   baseLabel: "HIMA",
   programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
 };
+const OINKUSDCMarketsInfo = {
+  address: new PublicKey("BRBWfj1JGNBngCbgcrUbRsGSwa4VsvY73FJGHiyssgbo"),
+  deprecated: false,
+  name : "OINK/USDC",
+  quoteLabel: "USDC",
+  baseLabel: "OINK",
+  programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
+};
+const BSAMOUSDCMarketsInfo = {
+  address: new PublicKey("AohqcP9t8y9ttheks7PWWf41ny3Zahy3WLF7mNLBuUHJ"),
+  deprecated: false,
+  name : "BSAMO/USDC",
+  quoteLabel: "USDC",
+  baseLabel: "BSAMO",
+  programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
+};
+const CCATUSDCMarketsInfo = {
+  address: new PublicKey("BLVk4aeGVEfeZgNKEQECuuwhKx4eGaZgnWrnjazDSHqn"),
+  deprecated: false,
+  name : "CCAT/USDC",
+  quoteLabel: "USDC",
+  baseLabel: "CCAT",
+  programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
+};
+const INUSDCMarketsInfo = {
+  address: new PublicKey("49vwM54DX3JPXpey2daePZPmimxA4CrkXLZ6E1fGxx2Z"),
+  deprecated: false,
+  name : "IN/USDC",
+  quoteLabel: "USDC",
+  baseLabel: "IN",
+  programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
+};
 
 export const USE_MARKETS: MarketInfo[] = _IGNORE_DEPRECATED
   ? Array<{
@@ -1051,6 +1083,10 @@ export const USE_MARKETS: MarketInfo[] = _IGNORE_DEPRECATED
 .concat(INUUSDCMarketsInfo)
 .concat(NRAUSDCMarketsInfo)
 .concat(HIMAUSDCMarketsInfo)
+.concat(OINKUSDCMarketsInfo)
+.concat(BSAMOUSDCMarketsInfo)
+.concat(CCATUSDCMarketsInfo)
+.concat(INUSDCMarketsInfo)
 
 
   : MARKETS;

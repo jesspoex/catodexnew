@@ -599,6 +599,30 @@
         "type":"SHIBA",
         "supply":"",
         "website":"https://www.shibalana.com/"
+    },
+    {
+        "name":"OINK/USDC",
+        "type":"OINK",
+        "supply":"",
+        "website":"www.luckypignfts.com"
+    },
+    {
+        "name":"BSAMO/USDC",
+        "type":"BSAMO",
+        "supply":"",
+        "website":"https://www.buffsamo.tech/"
+    },
+    {
+        "name":"CCAT/USDC",
+        "type":"CCAT",
+        "supply":"",
+        "website":"https://twitter.com/CuteBabyCatCoin"
+    },
+    {
+        "name":"IN/USDC",
+        "type":"Decentralized Reserve Currency",
+        "supply":"",
+        "website":"https://app.invictusdao.fi"
     }
 
 

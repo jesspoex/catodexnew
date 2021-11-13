@@ -131,6 +131,10 @@ import SCHAD from '../assets/SCHAD.png';
 import INU from '../assets/INU.png';
 import NRA from '../assets/NRA.png';
 import HIMA from '../assets/HIMA.png';
+import OINK from '../assets/OINK.png';
+import BSAMO from '../assets/BSAMO.png';
+import CCAT from '../assets/CCAT.png';
+import IN from '../assets/IN.png';
 
 const mockdict = {
   ETH: ETH,
@@ -235,6 +239,10 @@ const mockdict = {
   INU: INU,
   NRA: NRA,
   HIMA: HIMA,
+  OINK: OINK,
+  BSAMO: BSAMO,
+  CCAT: CCAT,
+  IN: IN,
 };
 const { Option, OptGroup } = Select;
 

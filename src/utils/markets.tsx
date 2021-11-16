@@ -962,6 +962,22 @@ const INUSDCMarketsInfo = {
   baseLabel: "IN",
   programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
 };
+const WAGMIUSDCMarketsInfo = {
+  address: new PublicKey("eju5JDyaf29jYNfq7VrVAocVxGayDEHVHHiM7MYc331"),
+  deprecated: false,
+  name : "WAGMI/USDC",
+  quoteLabel: "USDC",
+  baseLabel: "WAGMI",
+  programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
+};
+const SHIBTUSDCMarketsInfo = {
+  address: new PublicKey("3muYjVPCnunGhXAq87oYBWWdAPWJvEKbbg1fqKZLLkni"),
+  deprecated: false,
+  name : "SHIBT/USDC",
+  quoteLabel: "USDC",
+  baseLabel: "SHIBT",
+  programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
+};
 
 export const USE_MARKETS: MarketInfo[] = _IGNORE_DEPRECATED
   ? Array<{
@@ -1087,7 +1103,8 @@ export const USE_MARKETS: MarketInfo[] = _IGNORE_DEPRECATED
 .concat(BSAMOUSDCMarketsInfo)
 .concat(CCATUSDCMarketsInfo)
 .concat(INUSDCMarketsInfo)
-
+.concat(WAGMIUSDCMarketsInfo)
+.concat(SHIBTUSDCMarketsInfo)
 
   : MARKETS;
 

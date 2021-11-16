@@ -135,6 +135,8 @@ import OINK from '../assets/OINK.png';
 import BSAMO from '../assets/BSAMO.png';
 import CCAT from '../assets/CCAT.png';
 import IN from '../assets/IN.png';
+import SHIBT from '../assets/SHIBT.png';
+import WAGMI from '../assets/WAGMI.png';
 
 const mockdict = {
   ETH: ETH,
@@ -243,6 +245,8 @@ const mockdict = {
   BSAMO: BSAMO,
   CCAT: CCAT,
   IN: IN,
+  WAGMI: WAGMI,
+  SHIBT: SHIBT,
 };
 const { Option, OptGroup } = Select;
 

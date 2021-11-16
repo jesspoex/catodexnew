@@ -623,6 +623,18 @@
         "type":"Decentralized Reserve Currency",
         "supply":"",
         "website":"https://app.invictusdao.fi"
+    },
+    {
+        "name":"SHBIT/USDC",
+        "type":"Meme Token",
+        "supply":"",
+        "website":"https://shibalight.com"
+    },
+    {
+        "name":"WAGMI/USDC",
+        "type":"Meme Token",
+        "supply":"",
+        "website":"https://www.wagmionsolana.com"
     }
 
 

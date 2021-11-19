@@ -1,641 +1,639 @@
 [
-    {
-        "name":"BOP/USDC",
-        "type":"Decentralized VPN on Solana",
-        "supply":"250000000",
-        "website":"https://boringprotocol.io/"
-    },
-    {
-        "name":"CATO/USDC",
-        "type":"",
-        "supply":"",
-        "website":"https://www.solanacato.com/"
-    },
-    {
-        "name":"CHEEMS/USDC",
-        "type":"MEME Token",
-        "supply":"6650000000",
-        "website":"https://cheems.co/"
-    },
-    {
-        "name":"COPE/USDC",
-        "type":"",
-        "supply":"1000000000",
-        "website":"https://www.unlimitedcope.com/"
-    },
-    {
-        "name":"CREAM/USDC",
-        "type":"",
-        "supply":"",
-        "website":""
-    },
-    {
-        "name":"DGEN/USDC",
-        "type":"",
-        "supply":"",
-        "website":""
-    },
-    {
-        "name":"DOGA/USDC",
-        "type":"",
-        "supply":"9000000000",
-        "website":""
-    },
-    {
-        "name":"FAB/USDC (Old)",
-        "type":"",
-        "supply":"",
-        "website":""
-    },
-    {
-        "name":"FIDA/USDC",
-        "type":"",
-        "supply":"",
-        "website":"https://bonfida.com/"
-    },
-    {
-        "name":"FRENCH/USDC",
-        "type":"",
-        "supply":"",
-        "website":""
-    },
-    {
-        "name":"FROG/USDC",
-        "type":"",
-        "supply":"",
-        "website":""
-    },
-    {
-        "name":"FRONT/USDC",
-        "type":"",
-        "supply":"",
-        "website":""
-    },
-    {
-        "name":"FTR/USDC",
-        "type":"",
-        "supply":"",
-        "website":""
-    },
-    {
-        "name":"FTT/USDC",
-        "type":"",
-        "supply":"",
-        "website":""
-    },
-    {
-        "name":"HGET/USDC",
-        "type":"",
-        "supply":"",
-        "website":""
-    },
-    {
-        "name":"HHH/USDC",
-        "type":"",
-        "supply":"",
-        "website":""
-    },
-    {
-        "name":"HNT/USDC",
-        "type":"",
-        "supply":"",
-        "website":""
-    },
-    {
-        "name":"HOLD/USDC",
-        "type":"",
-        "supply":"",
-        "website":""
-    },
-    {
-        "name":"HXRO/USDC",
-        "type":"",
-        "supply":"",
-        "website":""
-    },
-    {
-        "name":"KEEP/USDC",
-        "type":"",
-        "supply":"",
-        "website":""
-    },
-    
-    {
-        "name":"KEKW/USDC",
-        "type":"",
-        "supply":"",
-        "website":""
-    },
-    {
-        "name":"KIN/USDC",
-        "type":"",
-        "supply":"",
-        "website":""
-    },
-    {
-        "name":"LINK/USDC",
-        "type":"",
-        "supply":"",
-        "website":""
-    },
-    {
-        "name":"LUA/USDC",
-        "type":"",
-        "supply":"",
-        "website":""
-    },
-    {
-        "name":"MAPS/USDC",
-        "type":"",
-        "supply":"",
-        "website":""
-    },
-    {
-        "name":"MATH/USDC",
-        "type":"",
-        "supply":"",
-        "website":""
-    },
-    {
-        "name":"mBRZ/USDC",
-        "type":"",
-        "supply":"",
-        "website":""
-    },
-    {
-        "name":"MER/USDC",
-        "type":"",
-        "supply":"",
-        "website":""
-    },
-    {
-        "name":"MSRM/USDC",
-        "type":"",
-        "supply":"",
-        "website":""
-    },
-    {
-        "name":"NINJA/USDC",
-        "type":"",
-        "supply":"",
-        "website":""
-    },
-    {
-        "name":"NOPE/USDC",
-        "type":"",
-        "supply":"",
-        "website":""
-    },
-    {
-        "name":"OXY/USDC",
-        "type":"",
-        "supply":"",
-        "website":""
-    },
-    {
-        "name":"PGN/USDC",
-        "type":"",
-        "supply":"",
-        "website":""
-    },
-    {
-        "name":"POTATO/USDC",
-        "type":"",
-        "supply":"",
-        "website":""
-    },
-    {
-        "name":"RAY/USDC",
-        "type":"",
-        "supply":"",
-        "website":""
-    },
-    {
-        "name":"ROPE/USDC",
-        "type":"",
-        "supply":"",
-        "website":""
-    },
-    {
-        "name":"SAIL/USDC",
-        "type":"",
-        "supply":"",
-        "website":""
-    },
-    {
-        "name":"SAMO/USDC",
-        "type":"",
-        "supply":"",
-        "website":""
-    },
-    {
-        "name":"MEOW/USDC",
-        "type":"",
-        "supply":"",
-        "website":""
-    },
-    {
-        "name":"SDOGE/USDC",
-        "type":"",
-        "supply":"",
-        "website":""
-    },
-    {
-        "name":"STNK/USDC",
-        "type":"",
-        "supply":"",
-        "website":""
-    },
-    {
-        "name":"SLIM/SOL",
-        "type":"",
-        "supply":"",
-        "website":""
-    },
-    {
-        "name":"SLNDN/USDC",
-        "type":"",
-        "supply":"",
-        "website":""
-    },
-    {
-        "name":"SOLANADON/USDC",
-        "type":"",
-        "supply":"",
-        "website":""
-    },
-    {
-        "name":"SOLAPE/USDC",
-        "type":"",
-        "supply":"",
-        "website":""
-    },
-    {
-        "name":"SUSHI/USDC",
-        "type":"",
-        "supply":"",
-        "website":""
-    },
-    {
-        "name":"TULIP/USDC",
-        "type":"",
-        "supply":"",
-        "website":""
-    },
-    {
-        "name":"WOOF/USDC",
-        "type":"",
-        "supply":"",
-        "website":""
-    },
-    {
-        "name":"xCOPE/USDC",
-        "type":"",
-        "supply":"",
-        "website":""
-    },
-    {
-        "name":"USDC/USDT",
-        "type":"",
-        "supply":"",
-        "website":""
-    },
-    {
-        "name":"PARTI/USDC",
-        "type":"APY Vault Ecosystem",
-        "supply":"10,000,000",
-        "website":"https://parti.finance/"
-    },
-    {
-        "name":"BOLE/USDC",
-        "type":"Semi-Deflationary Token",
-        "supply":"990,000",
-        "website":"https://tokenbole.com/"
-    },
-    {
-        "name":"ASH/USDC",
-        "type":"Semi-Deflationary Token",
-        "supply":"10,000,000,000",
-        "website":"https://twitter.com/SolAshera"
-    },
-    {
-        "name":"LIQ/USDC",
-        "type":"Decentralized Liquidation Engine",
-        "supply":"20,000,000",
-        "website":"https://liqsolana.com/"
-    },
-    {
-        "name":"TUTL/SOL",
-        "type":"Turtle Traders",
-        "supply":"1,021,000,000",
-        "website":"https://tutltraders.com"
-    },
-    {
-        "name":"CAPE/USDC",
-        "type":"Meme Token",
-        "supply":"10,000,000,000",
-        "website":"https://crazyapecoin.com/"
-    },
-    {
-        "name":"SHBL/USDC",
-        "type":"Meme Token",
-        "supply":"9,599,999,998",
-        "website":"https://shoebillco.in/"
-    },
-    {
-        "name":"APEX/USDC",
-        "type":"Risk Management tool",
-        "supply":"14,000,000",
-        "website":"https://apexit.finance/"
-    },
-    {
-        "name":"GÜ/USDC",
-        "type":" ",
-        "supply":"10,000,000",
-        "website":"https://kugle.org/"
-    },
-    {
-        "name":"DGX/USDC",
-        "type":" ",
-        "supply":"",
-        "website":""
-    },
-    {
-        "name":"TGT/USDC",
-        "type":"Twirl Governance Token",
-        "supply":"100000",
-        "website":"https://www.twirlfinance.com/"
-    },
-    {
-        "name":"FAB/USDC",
-        "type":"Tokenized Synthetic Assets",
-        "supply":"",
-        "website":"https://fsynth.io/"
-    },
-    {
-        "name":"BOP/RAY",
-        "type":"Decentralized VPN on Solana",
-        "supply":"250000000",
-        "website":"https://boringprotocol.io/"
-    },
-    {
-        "name":"LIQ/RAY",
-        "type":"Decentralized Liquidation Engine",
-        "supply":"20,000,000",
-        "website":"https://liqsolana.com/"
-    },
-    {
-        "name":"CRC/USDC",
-        "type":"Charity Coin",
-        "supply":"100,000,000",
-        "website":"https://www.carecoin.site"
-    },
-    {
-        "name":"CHAD/USDC",
-        "type":"ChadTrader Software",
-        "supply":"10,000,000",
-        "website":"https://chadtrader.io/"
-    },
-    {
-        "name":"MNGO/USDC",
-        "type":"",
-        "supply":"",
-        "website":"https://mango.markets/"
-    },
-    {
-        "name":"ORCA/USDC",
-        "type":"",
-        "supply":"",
-        "website":"https://www.orca.so/"
-    },
-    {
-        "name":"SBR/USDC",
-        "type":"",
-        "supply":"",
-        "website":"https://saber.so/"
-    },
-    {
-        "name":"GSAIL/USDC",
-        "type":"GSAIL V2",
-        "supply":"",
-        "website":"https://www.solanasail.com/"
-    },
-    {
-        "name":"LIKE/USDC",
-        "type":"ONLY1",
-        "supply":"",
-        "website":"https://LIKE.io/"
-    },
-    {
-        "name":"STEP/USDC",
-        "type":"",
-        "supply":"",
-        "website":"https://step.finance/"
-    },
-    {
-        "name":"CRP/USDC",
-        "type":"",
-        "supply":"",
-        "website":"https://cropper.finance/"
-    },
-    {
-        "name":"ATLAS/USDC",
-        "type":"Gaming Metaverse",
-        "supply":"36,000,000,000",
-        "website":"https://staratlas.com"
-    },
-    {
-        "name":"POLIS/USDC",
-        "type":"StarAtlas DAO",
-        "supply":"360,000,000",
-        "website":"https://staratlas.com"
-    },
-    {
-        "name":"SUNNY/USDC",
-        "type":"",
-        "supply":"",
-        "website":"https://sunny.ag"
-    },
-    {
-        "name":"PORT/USDC",
-        "type":"",
-        "supply":"",
-        "website":"https://port.finance"
-    },
-    {
-        "name":"SLRS/USDC",
-        "type":"Solrise",
-        "supply":"",
-        "website":"https://solrise.finance"
-    },
-    {
-        "name":"SOLBERRY/USDC",
-        "type":"Berry",
-        "supply":"",
-        "website":"https://dex.solberry.tech/"
-    },
-    {
-        "name":"DATE/USDC",
-        "type":"DATE",
-        "supply":"",
-        "website":"https://www.soldate.org/"
-    },
-    {
-        "name":"LARIX/USDC",
-        "type":"LARIX",
-        "supply":"",
-        "website":"https://projectlarix.com/"
-    },
-    {
-        "name":"GRAPE/USDC",
-        "type":"GRAPE",
-        "supply":"",
-        "website":"https://grapes.network/"
-    },
-    {
-        "name":"CYS/USDC",
-        "type":"AMM bringing concentrated liquidity to Solana",
-        "supply":"",
-        "website":"https://app.cyclos.io/"
-    },
-    {
-        "name":"HAMS/USDC",
-        "type":"Space Hamster",
-        "supply":"",
-        "website":"https://solhamster.space/"
-    },
-    {
-        "name":"SWAN/USDC",
-        "type":"SWANLANA",
-        "supply":"",
-        "website":"https://www.swanlana.com/"
-    },
-    {
-        "name":"BDE/USDC",
-        "type":"BDE",
-        "supply":"",
-        "website":"https://bigdefienergy.com/"
-    },
-    {
-        "name":"MIM/USDC",
-        "type":"MIM",
-        "supply":"",
-        "website":"https://www.mim-swarm.com/"
-    },
-    {
-        "name":"CHIH/USDC",
-        "type":"CHIH",
-        "supply":"",
-        "website":"https://chihuahuasol.com/"
-    },
-    {
-        "name":"ALM/USDC",
-        "type":"Yield Farming",
-        "supply":"",
-        "website":"https://almond.so/"
-    },
-    {
-        "name":"BST/USDC",
-        "type":"Balisari",
-        "supply":"",
-        "website":"https://www.balisaritrans.site/"
-    },
-    {
-        "name":"NAXAR/USDC",
-        "type":"",
-        "supply":"",
-        "website":"https://naxar.ru/"
-    },
-    {
-        "name":"SAIL/GSAIL",
-        "type":"",
-        "supply":"",
-        "website":"https://www.solanasail.com/"
-    },
-    {
-        "name":"BMBO/USDC",
-        "type":"Bamboo",
-        "supply":"",
-        "website":"https://www.bamboocoin.org/"
-    },
-    {
-        "name":"FLOOF/USDC",
-        "type":"The FLOOF",
-        "supply":"",
-        "website":"https://www.floofsolana.com/"
-    },
-    {
-        "name":"HIMA/USDC",
-        "type":"HIMA",
-        "supply":"",
-        "website":"https://www.himalayancatcoin.com/"
-    },
-    {
-        "name":"NRA/USDC",
-        "type":"NRA",
-        "supply":"",
-        "website":"http://solananora.com/"
-    },
-    {
-        "name":"INU/USDC",
-        "type":"INU",
-        "supply":"",
-        "website":"https://www.solanainu.finance/"
-    },
-    {
-        "name":"SCHAD/USDC",
-        "type":"SCHAD",
-        "supply":"",
-        "website":"https://www.superchad.io/"
-    },
-    {
-        "name":"SCUM/USDC",
-        "type":"SCUM",
-        "supply":"",
-        "website":"https://www.solanacum.com/"
-    },
-    {
-        "name":"SHIBA/USDC",
-        "type":"SHIBA",
-        "supply":"",
-        "website":"https://www.shibalana.com/"
-    },
-    {
-        "name":"OINK/USDC",
-        "type":"OINK",
-        "supply":"",
-        "website":"www.luckypignfts.com"
-    },
-    {
-        "name":"BSAMO/USDC",
-        "type":"BSAMO",
-        "supply":"",
-        "website":"https://www.buffsamo.tech/"
-    },
-    {
-        "name":"CCAT/USDC",
-        "type":"CCAT",
-        "supply":"",
-        "website":"https://twitter.com/CuteBabyCatCoin"
-    },
-    {
-        "name":"IN/USDC",
-        "type":"Decentralized Reserve Currency",
-        "supply":"",
-        "website":"https://app.invictusdao.fi"
-    },
-    {
-        "name":"SHBIT/USDC",
-        "type":"Meme Token",
-        "supply":"",
-        "website":"https://shibalight.com"
-    },
-    {
-        "name":"WAGMI/USDC",
-        "type":"Meme Token",
-        "supply":"",
-        "website":"https://www.wagmionsolana.com"
-    }
+  {
+    "name": "BOP/USDC",
+    "type": "Decentralized VPN on Solana",
+    "supply": "250000000",
+    "website": "https://boringprotocol.io/"
+  },
+  {
+    "name": "CATO/USDC",
+    "type": "",
+    "supply": "",
+    "website": "https://official.catodex.com/"
+  },
+  {
+    "name": "CHEEMS/USDC",
+    "type": "MEME Token",
+    "supply": "6650000000",
+    "website": "https://cheems.co/"
+  },
+  {
+    "name": "COPE/USDC",
+    "type": "",
+    "supply": "1000000000",
+    "website": "https://www.unlimitedcope.com/"
+  },
+  {
+    "name": "CREAM/USDC",
+    "type": "",
+    "supply": "",
+    "website": ""
+  },
+  {
+    "name": "DGEN/USDC",
+    "type": "",
+    "supply": "",
+    "website": ""
+  },
+  {
+    "name": "DOGA/USDC",
+    "type": "",
+    "supply": "9000000000",
+    "website": ""
+  },
+  {
+    "name": "FAB/USDC (Old)",
+    "type": "",
+    "supply": "",
+    "website": ""
+  },
+  {
+    "name": "FIDA/USDC",
+    "type": "",
+    "supply": "",
+    "website": "https://bonfida.com/"
+  },
+  {
+    "name": "FRENCH/USDC",
+    "type": "",
+    "supply": "",
+    "website": ""
+  },
+  {
+    "name": "FROG/USDC",
+    "type": "",
+    "supply": "",
+    "website": ""
+  },
+  {
+    "name": "FRONT/USDC",
+    "type": "",
+    "supply": "",
+    "website": ""
+  },
+  {
+    "name": "FTR/USDC",
+    "type": "",
+    "supply": "",
+    "website": ""
+  },
+  {
+    "name": "FTT/USDC",
+    "type": "",
+    "supply": "",
+    "website": ""
+  },
+  {
+    "name": "HGET/USDC",
+    "type": "",
+    "supply": "",
+    "website": ""
+  },
+  {
+    "name": "HHH/USDC",
+    "type": "",
+    "supply": "",
+    "website": ""
+  },
+  {
+    "name": "HNT/USDC",
+    "type": "",
+    "supply": "",
+    "website": ""
+  },
+  {
+    "name": "HOLD/USDC",
+    "type": "",
+    "supply": "",
+    "website": ""
+  },
+  {
+    "name": "HXRO/USDC",
+    "type": "",
+    "supply": "",
+    "website": ""
+  },
+  {
+    "name": "KEEP/USDC",
+    "type": "",
+    "supply": "",
+    "website": ""
+  },
 
-
+  {
+    "name": "KEKW/USDC",
+    "type": "",
+    "supply": "",
+    "website": ""
+  },
+  {
+    "name": "KIN/USDC",
+    "type": "",
+    "supply": "",
+    "website": ""
+  },
+  {
+    "name": "LINK/USDC",
+    "type": "",
+    "supply": "",
+    "website": ""
+  },
+  {
+    "name": "LUA/USDC",
+    "type": "",
+    "supply": "",
+    "website": ""
+  },
+  {
+    "name": "MAPS/USDC",
+    "type": "",
+    "supply": "",
+    "website": ""
+  },
+  {
+    "name": "MATH/USDC",
+    "type": "",
+    "supply": "",
+    "website": ""
+  },
+  {
+    "name": "mBRZ/USDC",
+    "type": "",
+    "supply": "",
+    "website": ""
+  },
+  {
+    "name": "MER/USDC",
+    "type": "",
+    "supply": "",
+    "website": ""
+  },
+  {
+    "name": "MSRM/USDC",
+    "type": "",
+    "supply": "",
+    "website": ""
+  },
+  {
+    "name": "NINJA/USDC",
+    "type": "",
+    "supply": "",
+    "website": ""
+  },
+  {
+    "name": "NOPE/USDC",
+    "type": "",
+    "supply": "",
+    "website": ""
+  },
+  {
+    "name": "OXY/USDC",
+    "type": "",
+    "supply": "",
+    "website": ""
+  },
+  {
+    "name": "PGN/USDC",
+    "type": "",
+    "supply": "",
+    "website": ""
+  },
+  {
+    "name": "POTATO/USDC",
+    "type": "",
+    "supply": "",
+    "website": ""
+  },
+  {
+    "name": "RAY/USDC",
+    "type": "",
+    "supply": "",
+    "website": ""
+  },
+  {
+    "name": "ROPE/USDC",
+    "type": "",
+    "supply": "",
+    "website": ""
+  },
+  {
+    "name": "SAIL/USDC",
+    "type": "",
+    "supply": "",
+    "website": ""
+  },
+  {
+    "name": "SAMO/USDC",
+    "type": "",
+    "supply": "",
+    "website": ""
+  },
+  {
+    "name": "MEOW/USDC",
+    "type": "",
+    "supply": "",
+    "website": ""
+  },
+  {
+    "name": "SDOGE/USDC",
+    "type": "",
+    "supply": "",
+    "website": ""
+  },
+  {
+    "name": "STNK/USDC",
+    "type": "",
+    "supply": "",
+    "website": ""
+  },
+  {
+    "name": "SLIM/SOL",
+    "type": "",
+    "supply": "",
+    "website": ""
+  },
+  {
+    "name": "SLNDN/USDC",
+    "type": "",
+    "supply": "",
+    "website": ""
+  },
+  {
+    "name": "SOLANADON/USDC",
+    "type": "",
+    "supply": "",
+    "website": ""
+  },
+  {
+    "name": "SOLAPE/USDC",
+    "type": "",
+    "supply": "",
+    "website": ""
+  },
+  {
+    "name": "SUSHI/USDC",
+    "type": "",
+    "supply": "",
+    "website": ""
+  },
+  {
+    "name": "TULIP/USDC",
+    "type": "",
+    "supply": "",
+    "website": ""
+  },
+  {
+    "name": "WOOF/USDC",
+    "type": "",
+    "supply": "",
+    "website": ""
+  },
+  {
+    "name": "xCOPE/USDC",
+    "type": "",
+    "supply": "",
+    "website": ""
+  },
+  {
+    "name": "USDC/USDT",
+    "type": "",
+    "supply": "",
+    "website": ""
+  },
+  {
+    "name": "PARTI/USDC",
+    "type": "APY Vault Ecosystem",
+    "supply": "10,000,000",
+    "website": "https://parti.finance/"
+  },
+  {
+    "name": "BOLE/USDC",
+    "type": "Semi-Deflationary Token",
+    "supply": "990,000",
+    "website": "https://tokenbole.com/"
+  },
+  {
+    "name": "ASH/USDC",
+    "type": "Semi-Deflationary Token",
+    "supply": "10,000,000,000",
+    "website": "https://twitter.com/SolAshera"
+  },
+  {
+    "name": "LIQ/USDC",
+    "type": "Decentralized Liquidation Engine",
+    "supply": "20,000,000",
+    "website": "https://liqsolana.com/"
+  },
+  {
+    "name": "TUTL/SOL",
+    "type": "Turtle Traders",
+    "supply": "1,021,000,000",
+    "website": "https://tutltraders.com"
+  },
+  {
+    "name": "CAPE/USDC",
+    "type": "Meme Token",
+    "supply": "10,000,000,000",
+    "website": "https://crazyapecoin.com/"
+  },
+  {
+    "name": "SHBL/USDC",
+    "type": "Meme Token",
+    "supply": "9,599,999,998",
+    "website": "https://shoebillco.in/"
+  },
+  {
+    "name": "APEX/USDC",
+    "type": "Risk Management tool",
+    "supply": "14,000,000",
+    "website": "https://apexit.finance/"
+  },
+  {
+    "name": "GÜ/USDC",
+    "type": " ",
+    "supply": "10,000,000",
+    "website": "https://kugle.org/"
+  },
+  {
+    "name": "DGX/USDC",
+    "type": " ",
+    "supply": "",
+    "website": ""
+  },
+  {
+    "name": "TGT/USDC",
+    "type": "Twirl Governance Token",
+    "supply": "100000",
+    "website": "https://www.twirlfinance.com/"
+  },
+  {
+    "name": "FAB/USDC",
+    "type": "Tokenized Synthetic Assets",
+    "supply": "",
+    "website": "https://fsynth.io/"
+  },
+  {
+    "name": "BOP/RAY",
+    "type": "Decentralized VPN on Solana",
+    "supply": "250000000",
+    "website": "https://boringprotocol.io/"
+  },
+  {
+    "name": "LIQ/RAY",
+    "type": "Decentralized Liquidation Engine",
+    "supply": "20,000,000",
+    "website": "https://liqsolana.com/"
+  },
+  {
+    "name": "CRC/USDC",
+    "type": "Charity Coin",
+    "supply": "100,000,000",
+    "website": "https://www.carecoin.site"
+  },
+  {
+    "name": "CHAD/USDC",
+    "type": "ChadTrader Software",
+    "supply": "10,000,000",
+    "website": "https://chadtrader.io/"
+  },
+  {
+    "name": "MNGO/USDC",
+    "type": "",
+    "supply": "",
+    "website": "https://mango.markets/"
+  },
+  {
+    "name": "ORCA/USDC",
+    "type": "",
+    "supply": "",
+    "website": "https://www.orca.so/"
+  },
+  {
+    "name": "SBR/USDC",
+    "type": "",
+    "supply": "",
+    "website": "https://saber.so/"
+  },
+  {
+    "name": "GSAIL/USDC",
+    "type": "GSAIL V2",
+    "supply": "",
+    "website": "https://www.solanasail.com/"
+  },
+  {
+    "name": "LIKE/USDC",
+    "type": "ONLY1",
+    "supply": "",
+    "website": "https://LIKE.io/"
+  },
+  {
+    "name": "STEP/USDC",
+    "type": "",
+    "supply": "",
+    "website": "https://step.finance/"
+  },
+  {
+    "name": "CRP/USDC",
+    "type": "",
+    "supply": "",
+    "website": "https://cropper.finance/"
+  },
+  {
+    "name": "ATLAS/USDC",
+    "type": "Gaming Metaverse",
+    "supply": "36,000,000,000",
+    "website": "https://staratlas.com"
+  },
+  {
+    "name": "POLIS/USDC",
+    "type": "StarAtlas DAO",
+    "supply": "360,000,000",
+    "website": "https://staratlas.com"
+  },
+  {
+    "name": "SUNNY/USDC",
+    "type": "",
+    "supply": "",
+    "website": "https://sunny.ag"
+  },
+  {
+    "name": "PORT/USDC",
+    "type": "",
+    "supply": "",
+    "website": "https://port.finance"
+  },
+  {
+    "name": "SLRS/USDC",
+    "type": "Solrise",
+    "supply": "",
+    "website": "https://solrise.finance"
+  },
+  {
+    "name": "SOLBERRY/USDC",
+    "type": "Berry",
+    "supply": "",
+    "website": "https://dex.solberry.tech/"
+  },
+  {
+    "name": "DATE/USDC",
+    "type": "DATE",
+    "supply": "",
+    "website": "https://www.soldate.org/"
+  },
+  {
+    "name": "LARIX/USDC",
+    "type": "LARIX",
+    "supply": "",
+    "website": "https://projectlarix.com/"
+  },
+  {
+    "name": "GRAPE/USDC",
+    "type": "GRAPE",
+    "supply": "",
+    "website": "https://grapes.network/"
+  },
+  {
+    "name": "CYS/USDC",
+    "type": "AMM bringing concentrated liquidity to Solana",
+    "supply": "",
+    "website": "https://app.cyclos.io/"
+  },
+  {
+    "name": "HAMS/USDC",
+    "type": "Space Hamster",
+    "supply": "",
+    "website": "https://solhamster.space/"
+  },
+  {
+    "name": "SWAN/USDC",
+    "type": "SWANLANA",
+    "supply": "",
+    "website": "https://www.swanlana.com/"
+  },
+  {
+    "name": "BDE/USDC",
+    "type": "BDE",
+    "supply": "",
+    "website": "https://bigdefienergy.com/"
+  },
+  {
+    "name": "MIM/USDC",
+    "type": "MIM",
+    "supply": "",
+    "website": "https://www.mim-swarm.com/"
+  },
+  {
+    "name": "CHIH/USDC",
+    "type": "CHIH",
+    "supply": "",
+    "website": "https://chihuahuasol.com/"
+  },
+  {
+    "name": "ALM/USDC",
+    "type": "Yield Farming",
+    "supply": "",
+    "website": "https://almond.so/"
+  },
+  {
+    "name": "BST/USDC",
+    "type": "Balisari",
+    "supply": "",
+    "website": "https://www.balisaritrans.site/"
+  },
+  {
+    "name": "NAXAR/USDC",
+    "type": "",
+    "supply": "",
+    "website": "https://naxar.ru/"
+  },
+  {
+    "name": "SAIL/GSAIL",
+    "type": "",
+    "supply": "",
+    "website": "https://www.solanasail.com/"
+  },
+  {
+    "name": "BMBO/USDC",
+    "type": "Bamboo",
+    "supply": "",
+    "website": "https://www.bamboocoin.org/"
+  },
+  {
+    "name": "FLOOF/USDC",
+    "type": "The FLOOF",
+    "supply": "",
+    "website": "https://www.floofsolana.com/"
+  },
+  {
+    "name": "HIMA/USDC",
+    "type": "HIMA",
+    "supply": "",
+    "website": "https://www.himalayancatcoin.com/"
+  },
+  {
+    "name": "NRA/USDC",
+    "type": "NRA",
+    "supply": "",
+    "website": "http://solananora.com/"
+  },
+  {
+    "name": "INU/USDC",
+    "type": "INU",
+    "supply": "",
+    "website": "https://www.solanainu.finance/"
+  },
+  {
+    "name": "SCHAD/USDC",
+    "type": "SCHAD",
+    "supply": "",
+    "website": "https://www.superchad.io/"
+  },
+  {
+    "name": "SCUM/USDC",
+    "type": "SCUM",
+    "supply": "",
+    "website": "https://www.solanacum.com/"
+  },
+  {
+    "name": "SHIBA/USDC",
+    "type": "SHIBA",
+    "supply": "",
+    "website": "https://www.shibalana.com/"
+  },
+  {
+    "name": "OINK/USDC",
+    "type": "OINK",
+    "supply": "",
+    "website": "www.luckypignfts.com"
+  },
+  {
+    "name": "BSAMO/USDC",
+    "type": "BSAMO",
+    "supply": "",
+    "website": "https://www.buffsamo.tech/"
+  },
+  {
+    "name": "CCAT/USDC",
+    "type": "CCAT",
+    "supply": "",
+    "website": "https://twitter.com/CuteBabyCatCoin"
+  },
+  {
+    "name": "IN/USDC",
+    "type": "Decentralized Reserve Currency",
+    "supply": "",
+    "website": "https://app.invictusdao.fi"
+  },
+  {
+    "name": "SHBIT/USDC",
+    "type": "Meme Token",
+    "supply": "",
+    "website": "https://shibalight.com"
+  },
+  {
+    "name": "WAGMI/USDC",
+    "type": "Meme Token",
+    "supply": "",
+    "website": "https://www.wagmionsolana.com"
+  }
 ]

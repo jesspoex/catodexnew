@@ -978,6 +978,15 @@ const SHIBTUSDCMarketsInfo = {
   baseLabel: "SHIBT",
   programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
 };
+const DIBUUSDCMarketsInfo = {
+  address: new PublicKey("TCLvUMwd9XBz3qp2oFTQ9L6SHNoQETJ1f7wEV6QCt2Y"),
+  deprecated: false,
+  name : "DIBU/USDC",
+  quoteLabel: "USDC",
+  baseLabel: "DIBU",
+  programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
+};
+
 
 export const USE_MARKETS: MarketInfo[] = _IGNORE_DEPRECATED
   ? Array<{
@@ -1105,6 +1114,7 @@ export const USE_MARKETS: MarketInfo[] = _IGNORE_DEPRECATED
 .concat(INUSDCMarketsInfo)
 .concat(WAGMIUSDCMarketsInfo)
 .concat(SHIBTUSDCMarketsInfo)
+.concat(DIBUUSDCMarketsInfo)
 
   : MARKETS;
 

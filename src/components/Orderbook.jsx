@@ -143,7 +143,48 @@ export default function Orderbook({
       <MarkPriceComponent markPrice={markPrice} />
       <SizeTitle>
         <Col span={12} style={{ textAlign: 'left' }}>
-          Size ({baseCurrency})
+          <Row>
+            <Col span={12} style={{ textAlign: 'left' }}>
+              Size
+            </Col>
+            <Col span={12} style={{ textAlign: 'right' }}>
+              Price
+            </Col>
+          </Row>
+          <Row>
+            <Col span={12} style={{ textAlign: 'left' }}>
+              ({baseCurrency})
+            </Col>
+            <Col span={12} style={{ textAlign: 'right' }}>
+              ({quoteCurrency})
+            </Col>
+          </Row>
+          {orderbookData?.bids.map(({ price, size, sizePercent }) => (
+            <OrderbookRow
+              key={price + ''}
+              price={price}
+              size={size}
+              side={'buy'}
+              sizePercent={sizePercent}
+              onPriceClick={() => onPrice(price)}
+              onSizeClick={() => onSize(size)}
+              inverted={false}
+            />
+          ))}
+        </Col>
+        <Col span={12} style={{ textAlign: 'right' }}>
+          <Row>
+            <Col span={12} style={{ textAlign: 'left' }}></Col>
+            <Col span={12} style={{ textAlign: 'right' }}>
+              Size
+            </Col>
+          </Row>
+          <Row>
+            <Col span={12} style={{ textAlign: 'left' }}></Col>
+            <Col span={12} style={{ textAlign: 'right' }}>
+              ({baseCurrency})
+            </Col>
+          </Row>
           {lengthSell > 0 &&
             orderbookData?.asks.map((item, index) => {
               return (
@@ -176,25 +217,10 @@ export default function Orderbook({
                       ].size,
                     )
                   }
-                  inverted={false}
+                  inverted={true}
                 />
               );
             })}
-        </Col>
-        <Col span={12} style={{ textAlign: 'right' }}>
-          Price ({quoteCurrency})
-          {orderbookData?.bids.map(({ price, size, sizePercent }) => (
-            <OrderbookRow
-              key={price + ''}
-              price={price}
-              size={size}
-              side={'buy'}
-              sizePercent={sizePercent}
-              onPriceClick={() => onPrice(price)}
-              onSizeClick={() => onSize(size)}
-              inverted={true}
-            />
-          ))}
         </Col>
       </SizeTitle>
     </FloatingElement>

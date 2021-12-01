@@ -138,6 +138,8 @@ import IN from '../assets/IN.png';
 import SHIBT from '../assets/SHIBT.png';
 import WAGMI from '../assets/WAGMI.png';
 import DIBU from '../assets/DIBU.png';
+import PIXL from '../assets/PIXL.png';
+import SWOLE from '../assets/SWOLE.png';
 
 
 const mockdict = {
@@ -250,6 +252,8 @@ const mockdict = {
   WAGMI: WAGMI,
   SHIBT: SHIBT,
   DIBU: DIBU,
+  PIXL: PIXL,
+  SWOLE: SWOLE,
 };
 const { Option, OptGroup } = Select;
 

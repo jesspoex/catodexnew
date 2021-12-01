@@ -641,5 +641,17 @@
     "type": "Meme Token",
     "supply": "",
     "website": "https://www.solanadickbutt.com/"
+  },
+  {
+    "name": "PIXL/USDC",
+    "type": "",
+    "supply": "",
+    "website": "https://www.pixels.so"
+  },
+  {
+    "name": "SWOLE/USDC",
+    "type": "",
+    "supply": "",
+    "website": "https://swoledogecoin.org/"
   }
 ]

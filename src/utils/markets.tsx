@@ -787,7 +787,7 @@ const SWANUSDCMarketsInfo = {
   programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
 };
 const BDEUSDCMarketsInfo = {
-  address: new PublicKey("2kQer4JyDA8wRxNpSCNG8zAne1zwWVhByTUu8Qi6BEjR"),
+  address: new PublicKey("41ZnP6U4catotV7rFuv7JR9n53jcCGrBTBkowoBaQx5q"),
   deprecated: false,
   name : "BDE/USDC",
   quoteLabel: "USDC",
@@ -986,7 +986,22 @@ const DIBUUSDCMarketsInfo = {
   baseLabel: "DIBU",
   programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
 };
-
+const SWOLEUSDCMarketsInfo = {
+  address: new PublicKey("3SGeuz8EXsyFo4HHWXQsoo8r4r5RdZkt7TuuTZiVbKc8"),
+  deprecated: false,
+  name : "SWOLE/USDC",
+  quoteLabel: "USDC",
+  baseLabel: "SWOLE",
+  programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
+};
+const PIXLUSDCMarketsInfo = {
+  address: new PublicKey("ESd3PskTov69tkW5MmfdV8K7hXR35EXRYorWMNn61dD3"),
+  deprecated: false,
+  name : "PIXL/USDC",
+  quoteLabel: "USDC",
+  baseLabel: "PIXL",
+  programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
+};
 
 export const USE_MARKETS: MarketInfo[] = _IGNORE_DEPRECATED
   ? Array<{
@@ -1115,6 +1130,8 @@ export const USE_MARKETS: MarketInfo[] = _IGNORE_DEPRECATED
 .concat(WAGMIUSDCMarketsInfo)
 .concat(SHIBTUSDCMarketsInfo)
 .concat(DIBUUSDCMarketsInfo)
+.concat(PIXLUSDCMarketsInfo)
+.concat(SWOLEUSDCMarketsInfo)
 
   : MARKETS;
 

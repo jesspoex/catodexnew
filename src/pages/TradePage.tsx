@@ -140,6 +140,7 @@ import WAGMI from '../assets/WAGMI.png';
 import DIBU from '../assets/DIBU.png';
 import PIXL from '../assets/PIXL.png';
 import SWOLE from '../assets/SWOLE.png';
+import VINU from '../assets/VINU.png';
 
 
 const mockdict = {
@@ -254,6 +255,7 @@ const mockdict = {
   DIBU: DIBU,
   PIXL: PIXL,
   SWOLE: SWOLE,
+  VINU: VINU,
 };
 const { Option, OptGroup } = Select;
 

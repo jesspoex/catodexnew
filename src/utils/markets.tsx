@@ -1002,6 +1002,14 @@ const PIXLUSDCMarketsInfo = {
   baseLabel: "PIXL",
   programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
 };
+const VINURAYMarketsInfo = {
+  address: new PublicKey("7W9pEftZmMvq9wm9tf5fLfMGMAY3bSa362ve1LzGDZq9"),
+  deprecated: false,
+  name : "VINU/RAY",
+  quoteLabel: "RAY",
+  baseLabel: "VINU",
+  programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
+};
 
 export const USE_MARKETS: MarketInfo[] = _IGNORE_DEPRECATED
   ? Array<{
@@ -1132,6 +1140,7 @@ export const USE_MARKETS: MarketInfo[] = _IGNORE_DEPRECATED
 .concat(DIBUUSDCMarketsInfo)
 .concat(PIXLUSDCMarketsInfo)
 .concat(SWOLEUSDCMarketsInfo)
+.concat(VINURAYMarketsInfo)
 
   : MARKETS;
 

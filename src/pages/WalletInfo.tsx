@@ -19,7 +19,7 @@ export const PROGRAM_ID = new PublicKey(
 );
 const solanaUrl = "https://solana-api.projectserum.com/";
 const orangeShade = "#CBCAC8";
-const serverUrl = "https://catodex.com";
+const serverUrl = "https://www.quantitybuild.com";
 const columns = [
   {
     title: <strong>Signature</strong>,

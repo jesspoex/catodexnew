@@ -11,7 +11,8 @@ export const ENDPOINTS: EndpointInfo[] = [
     endpoint: " https://api-cryptocurrencies-ai.rpcpool.com",
     custom: false,
   },
-  { name: 'localnet', endpoint: 'http://127.0.0.1:8899', custom: false },
+  { name: 'localnet',
+   ndpoint: 'http://127.0.0.1:8899', custom: false },
 ];
 
 const accountListenerCount = new Map();

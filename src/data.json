@@ -6,6 +6,30 @@
     "website": "https://boringprotocol.io/"
   },
   {
+    "name": "QB/USDC",
+    "type": "",
+    "supply": "7000000",
+    "website": "https://www.quantitybuild.com/"
+  },
+  {
+    "name": "LQ/QB",
+    "type": "",
+    "supply": "",
+    "website": "https://www.quantitybuild.com/"
+  },
+  {
+    "name": "SWEET/USDC",
+    "type": "",
+    "supply": "",
+    "website": "https://sweetsmart.xyz/"
+  },
+  {
+    "name": "PHNX/SOL",
+    "type": "",
+    "supply": "",
+    "website": ""
+  },
+  {
     "name": "CATO/USDC",
     "type": "",
     "supply": "",

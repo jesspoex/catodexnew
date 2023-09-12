@@ -725,6 +725,58 @@
     "discord":"",
     "telegram":"",
     "circulating_supply":""
+  },
+  {
+    "token_name":"QB",
+    "token_pair":"QB/USDC",
+    "token_description":"Quantity Build",
+    "market_address":"2ba5V4hkKxmGtnHft5DNMt8NPARZKHcBaK9Lu21iGTeg",
+    "token_address":"4iGtA8VSTFNFjXdQZiSkMkM2sS4x21tC9y5DAU9WxoQd",
+    "token_logo":"",
+    "wesbite":"https://www.quantitybuild.com/",
+    "twitter":"https://twitter.com/quantitybuild",
+    "discord":"https://discord.gg/RAbZs9wuxF",
+    "telegram":"",
+    "circulating_supply":""
+  },
+  {
+    "token_name":"lQ",
+    "token_pair":"LQ/QB",
+    "token_description":"Quantity Build",
+    "market_address":"GXKPm6k6NaEt517iW51ysCLuGgugkQ7FqZPG2Jbg75qK",
+    "token_address":"2vPkFo4oNs6ZSzVAvMfF9FP9W2aXGX2JacWu4XTqVpsi",
+    "token_logo":"",
+    "wesbite":"https://www.quantitybuild.com/",
+    "twitter":"https://twitter.com/quantitybuild",
+    "discord":"https://discord.gg/RAbZs9wuxF",
+    "telegram":"",
+    "circulating_supply":""
+  },
+  {
+    "token_name":"SWEET",
+    "token_pair":"SWEET/USDC",
+    "token_description":"Sweet coin",
+    "market_address":"ER3t6N44WsFFsCUMqXF2oTE6ag6tb3YZBFCqw5hdgiYK",
+    "token_address":"5SwxhEunuUUcWe4ojybdDwky6dpLxAehNmF4AA71STNh",
+    "token_logo":"",
+    "wesbite":"https://sweetsmart.xyz/",
+    "twitter":"https://twitter.com/sweetscoin",
+    "discord":"https://discord.gg/YGr6mBADQk",
+    "telegram":"",
+    "circulating_supply":""
+  },
+  {
+    "token_name":"PHNX",
+    "token_pair":"PHNX/SO:",
+    "token_description":"Phoenix",
+    "market_address":"GNNSrmixw6XFjEQyMJYronwZe3TvjAaMKZdT5eQoyR6o",
+    "token_address":"JAzesW3tU2VLDx99pwgkDMca2DTNsEhSWG8sj21B1niz",
+    "token_logo":"",
+    "wesbite":"",
+    "twitter":"",
+    "discord":"",
+    "telegram":"",
+    "circulating_supply":""
   }
   
 ]

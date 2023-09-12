@@ -935,6 +935,38 @@
       "tokenMint": "Fp4gjLpTsPqBN6xDGpDHwtnuEofjyiZKxxZxzvJnjxV6",
       "supply": 0,
       "fixedsupply": "no"
+    },
+    {
+      "tokenName": "QB",
+      "marketAddress": "2sLPUq9dV6D6sP7S3UjbHdeoZFgAC59FxTTPxte57KZV",
+      "decimals": 5,
+      "tokenMint": "4iGtA8VSTFNFjXdQZiSkMkM2sS4x21tC9y5DAU9WxoQd",
+      "supply": 0,
+      "fixedsupply": "no"
+    },
+    {
+      "tokenName": "LQ",
+      "marketAddress": "GXKPm6k6NaEt517iW51ysCLuGgugkQ7FqZPG2Jbg75qK",
+      "decimals": 5,
+      "tokenMint": "2vPkFo4oNs6ZSzVAvMfF9FP9W2aXGX2JacWu4XTqVpsi",
+      "supply": 0,
+      "fixedsupply": "no"
+    },
+    {
+      "tokenName": "SWEET",
+      "marketAddress": "ER3t6N44WsFFsCUMqXF2oTE6ag6tb3YZBFCqw5hdgiYK",
+      "decimals": 5,
+      "tokenMint": "5SwxhEunuUUcWe4ojybdDwky6dpLxAehNmF4AA71STNh",
+      "supply": 0,
+      "fixedsupply": "no"
+    },
+    {
+      "tokenName": "PHNX",
+      "marketAddress": "GNNSrmixw6XFjEQyMJYronwZe3TvjAaMKZdT5eQoyR6o",
+      "decimals": 0,
+      "tokenMint": "JAzesW3tU2VLDx99pwgkDMca2DTNsEhSWG8sj21B1niz",
+      "supply": 0,
+      "fixedsupply": "no"
     }
   ]
 }

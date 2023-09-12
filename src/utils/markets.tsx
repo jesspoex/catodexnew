@@ -1010,6 +1010,38 @@ const VINURAYMarketsInfo = {
   baseLabel: "VINU",
   programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
 };
+const QBUSDCMarketsInfo = {
+  address: new PublicKey("2ba5V4hkKxmGtnHft5DNMt8NPARZKHcBaK9Lu21iGTeg"),
+  deprecated: false,
+  name : "QB/USDC",
+  quoteLabel: "USDC",
+  baseLabel: "QB",
+  programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
+};
+const LQQBMarketsInfo = {
+  address: new PublicKey("GXKPm6k6NaEt517iW51ysCLuGgugkQ7FqZPG2Jbg75qK"),
+  deprecated: false,
+  name : "LQ/QB",
+  quoteLabel: "QB",
+  baseLabel: "LQ",
+  programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
+};
+const SWEETUSDCMarketsInfo = {
+  address: new PublicKey("ER3t6N44WsFFsCUMqXF2oTE6ag6tb3YZBFCqw5hdgiYK"),
+  deprecated: false,
+  name : "SWEET/USDC",
+  quoteLabel: "USDC",
+  baseLabel: "SWEET",
+  programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
+};
+const PHNXSOLMarketsInfo = {
+  address: new PublicKey("GNNSrmixw6XFjEQyMJYronwZe3TvjAaMKZdT5eQoyR6o"),
+  deprecated: false,
+  name : "PHNX/SOL",
+  quoteLabel: "SOL",
+  baseLabel: "PHNX",
+  programId: new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
+};
 
 export const USE_MARKETS: MarketInfo[] = _IGNORE_DEPRECATED
   ? Array<{
@@ -1141,6 +1173,10 @@ export const USE_MARKETS: MarketInfo[] = _IGNORE_DEPRECATED
 .concat(PIXLUSDCMarketsInfo)
 .concat(SWOLEUSDCMarketsInfo)
 .concat(VINURAYMarketsInfo)
+.concat(QBUSDCMarketsInfo)
+.concat(LQQBMarketsInfo)
+.concat(SWEETUSDCMarketsInfo)
+.concat(PHNXSOLMarketsInfo)
 
   : MARKETS;
 

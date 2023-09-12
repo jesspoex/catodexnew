@@ -141,6 +141,10 @@ import DIBU from '../assets/DIBU.png';
 import PIXL from '../assets/PIXL.png';
 import SWOLE from '../assets/SWOLE.png';
 import VINU from '../assets/VINU.png';
+import QB from '../assets/QB.jpg';
+import LQ from '../assets/LQ.jpg';
+import SWEET from '../assets/SWEET.jpg';
+import PHNX from '../assets/PHNX.jpg';
 
 
 const mockdict = {
@@ -256,6 +260,10 @@ const mockdict = {
   PIXL: PIXL,
   SWOLE: SWOLE,
   VINU: VINU,
+  QB: QB,
+  LQ: LQ,
+  SWEET: SWEET,
+  PHNX: PHNX,
 };
 const { Option, OptGroup } = Select;
 

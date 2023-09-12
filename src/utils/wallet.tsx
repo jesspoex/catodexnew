@@ -23,18 +23,8 @@ import {
 const ASSET_URL =
   'https://cdn.jsdelivr.net/gh/solana-labs/oyster@main/assets/wallets';
 export const WALLET_PROVIDERS = [
-  {
-    name: 'sollet.io',
-    url: 'https://www.sollet.io',
-    icon: `${ASSET_URL}/sollet.svg`,
-  },
-  {
-    name: 'Sollet Extension',
-    url: 'https://www.sollet.io/extension',
-    icon: `${ASSET_URL}/sollet.svg`,
-    adapter: SolletExtensionAdapter as any,
-  },
-  {
+  
+{
     name: 'Ledger',
     url: 'https://www.ledger.com',
     icon: `${ASSET_URL}/ledger.svg`,
